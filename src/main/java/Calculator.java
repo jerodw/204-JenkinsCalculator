@@ -51,11 +51,7 @@ class Calculator {
                 lastValue += previousValue;
                 previousValue = temp;
             }
-
-            System.out.print(lastValue + ", ");
         }
-
-        System.out.println("\b\b");
 
         return lastValue;
     }
