@@ -61,7 +61,7 @@ class Calculator {
     }
 
 
-    /*
+    /**
     Returns binary value of the given int number
     The binary number will be stored as a string
     if int a = 0 then this method returns: 0
@@ -72,7 +72,7 @@ class Calculator {
         return Integer.toBinaryString(n);
     }
 
-    /*
+    /**
     Create a completely unique String identifier for a given string
     Each createdID must contain the string n in its unaltered Form
     if String n = "Jason"
